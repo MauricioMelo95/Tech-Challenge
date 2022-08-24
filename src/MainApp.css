@@ -1,0 +1,139 @@
+
+html{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.main-div{
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-div div{
+  padding-top: 10px;
+}
+
+.footer{
+  background-color: #18b9b4;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  width: 500px;
+  height: 55px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: inherit;
+}
+
+.footer a{
+  cursor: pointer;
+  color: #fff;
+}
+
+.close-div{
+  display: flex;
+  padding: 10px;
+}
+
+.close-icon{
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.submit-button button{
+  border: 1px solid #ff5859;
+  font-weight: 30;
+  background-color: #ff5859;
+  display: inline-block;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%);
+  font-size: 1.2rem;
+  text-decoration: none;
+  height: 40px;
+  width: 400px;
+  padding: 8px;
+  padding-bottom: 10px;
+  transition: background-color .2s ease-in-out;
+  will-change: background-color;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.email-input input{
+  color: #1d1d1d;
+    flex: 1 1 auto;
+    font-size: 1.6rem;
+    width: 380px;
+    padding: 0.5rem 0.5rem;
+    font: inherit;
+    box-sizing: inherit;
+    border-color: #dcdcdc;
+    border-style:ridge;
+}
+
+.password-input input{
+  color: #1d1d1d;
+    flex: 1 1 auto;
+    font-size: 1.6rem;
+    width: 380px;
+    padding: 0.5rem 0.5rem;
+    font: inherit;
+    box-sizing: inherit;
+    border-color: #dcdcdc;
+    border-style:ridge;
+}
+
+
+.password-input span{
+  position:absolute ;
+  align-content: center;
+  right: 60px;
+  cursor: pointer;
+}
+
+#showhide{
+  font-size: 14px;
+  margin-top: 10px;
+  text-decoration: underline;
+  
+}
+
+.new-account{
+  text-decoration: underline;
+}
+
+.email-input span{
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 425px;
+  top: 147px;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.validate-label{
+  margin: 5px 45px 0px 0px;
+  color: red;
+  font-size: 15px;
+}
+
+.repeat-password-input input{
+  color: #1d1d1d;
+    flex: 1 1 auto;
+    font-size: 1.6rem;
+    width: 380px;
+    padding: 0.5rem 0.5rem;
+    font: inherit;
+    box-sizing: inherit;
+    border-color: #dcdcdc;
+    border-style:ridge;
+}
+
+
+.repeat-password-input span{
+  align-content: center;
+  cursor: pointer;
+  position:absolute ;
+  right: 60px;
+}
